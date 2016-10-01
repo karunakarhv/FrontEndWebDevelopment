@@ -2,6 +2,11 @@
 <html>
 	<head>
 		<title>Demo Forms</title>
+		<meta charset="utf-8">
+		<meta name="Author" content="Name of the Author">
+		<meta name="Keywords" content="html css javascript js xml">
+		<meta http-equiv="refresh" content="5">
+
 	</head>
 	<body>
 	<form>
@@ -10,14 +15,70 @@
 		<legend>Personal Information</legend>
 		First Name: <input type="text" name="name"><br>
 		Last Name: <input type="text" name="name"><br>
-		Gender: <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female
+		Gender: <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female <br>
+		<textarea rows="10" cols="20">
+			Enter your address
+		</textarea>
 		</fieldset>
 		<br>
 		<fieldset>
 		<legend>Login Details</legend>
-		User Name: <input type="text" name="name"><br>
-		Password: <input type="Password" name="name"><br>
+		User Name: <input type="text" name="uname"><br>
+		Password: <input type="Password" name="pwd"><br>
+		Remember Me? <input type="checkbox" name="remember"><br> 
 		</fieldset>
+		<fieldset>
+		<legend>Automobile Preferences</legend>
+		Car:
+		<select name="carSel">
+		<optgroup label="International">
+			<option>Audi</option>
+			<option>BMW</option>
+        </optgroup>	
+        <optgroup label="Indian">
+			<option>Maruti</option>
+			<option>Mahindra</option>
+		</optgroup>
+		</select> 
+		</fieldset>
+		<fieldset>
+			<legend>Lists</legend>
+			<h4>Ordered List</h4>
+			<ol type="a">
+				<li>List Item 1</li>
+				<li>List Item 2</li>
+				<li>List Item 3</li>
+			</ol>
+			<h4>Unordered List</h4>
+			<ul type="disc">
+				<li>List Item 1</li>
+				<li>List Item 2</li>
+				<li>List Item 3</li>				
+			</ul>
+		</fieldset>
+        <h4>Table Layout</h4>
+        <table border="1" align="center">
+        <caption>Contact Details</caption>
+        	<thead>
+        		<tr>
+        			<td>Name</td>
+        			<td>Address</td>	
+        		</tr>
+        	</thead>
+        	<tbody>
+        		<tr>
+        			<td>Name 1</td>
+        			<td>Address 1</td>
+        		</tr>
+        		 <tr>
+        			<td>Name 2</td>
+        			<td>Address 2</td>
+        		</tr>
+        	</tbody>
+        </table>
+        <iframe src="https://www.google.co.in">
+        	<p>Doesnt support iFrame</p>
+        </iframe>
 	</form>
 	</body>
 </html>
