@@ -53,8 +53,8 @@ var Employee_5 = {
   }
 };
 
-var Employee = [Employee_1, Employee_2, Employee_3, Employee_4, Employee_5];
-console.log("Name: " + Employee[4].name);
+var Employee = [Employee_1, Employee_2, Employee_3, Employee_4, Employee_5]; //Arrays containing Employee Objects
+console.log("Name: " + Employee[4].name); //Printing the 5th Employee Details.
 console.log("Age: " + Employee[4].age);
 console.log("Salary: " + Employee[4].salary);
 console.log("City: " + Employee[4].Address.city);

@@ -1,4 +1,4 @@
-var radius = 3;
-var areaOfCircle = 3.14 * radius * radius;
+var radius = 3; //Variable declaration and initialization
+var areaOfCircle = 3.14 * radius * radius; //Arithmetic Operator *
 
 console.log("Area of Circle: " + areaOfCircle);

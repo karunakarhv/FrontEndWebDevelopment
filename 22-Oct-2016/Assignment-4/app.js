@@ -1,7 +1,13 @@
-var out = function outer(
-function ()
+
+function doSomething(funcArg)
 {
-  console.log("Hello World From Inner Fucntion");
+  funcArg();
 }
+
+//Passing an anonymous function as an argument
+doSomething(
+  function()
+  {
+    console.log("Hello World From Inner Function");
+  }
 );
-out();
